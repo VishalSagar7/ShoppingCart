@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    height: auto;
+    padding: 10px 30px;
+    width: 750px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.box {
+    width: 60%;
+}
+#cart{
+    width: 40%;
+    padding-inline: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: burlywood;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button {
+    height: 20px;
+    width: 20px;
+}
+.container .box h2{
+    text-align: center;
+}
+.individual-Product{
+    background-color: burlywood;
+}
